@@ -1,0 +1,385 @@
+body{
+    font-family: "Titillium Web",sans-serif;
+}
+
+.textPriv{
+    height:30px;
+    text-align:center;
+    color: #535353;
+    font-size:36px;
+
+}
+.textYou{
+    height:20px;
+    text-align:center;
+    color: #7C7C7C;
+    font-size:29px;
+
+}
+.textWho{
+    margin:0;
+    padding-right:15px;
+    padding-top:15px;
+    text-align:right;
+    color: #7c7c7c;;
+    font-size:14px;
+}
+/*buttons design*/
+.btn-up{
+    width: 246px;
+    height: 57px;
+    margin-right :25px;
+    box-shadow: 0 2px 10px 1px #5F2E69;
+    border-style: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#645c92,#5F2E69) ;
+    color: white;
+    font-family: inherit;
+    font-weight:bold;
+    font-size: 18px;
+
+
+}
+
+.btn-don{
+    width: 166px;
+    height: 57px;
+    margin-left: 25px;
+    box-shadow: 0 2px 10px 1px gray;
+    border-style: none;
+    border-radius: 30px;
+    background:linear-gradient(90deg,#35bce0,#5D7BEA);
+    color: white;
+    font-family: inherit;
+    font-weight:bold;
+    font-size: 18px;
+
+}
+.btn-don:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+.btn-up:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+}
+
+.center{
+    margin-top:43px;
+    flex-flow: row;
+    justify-content: center;
+    display: flex;
+    vertical-align:center;
+    height:150px;
+}
+/*No dots before list elements */
+li{
+    list-style-type:none;
+    display:flexbox;
+    
+}
+/*And dots after*/
+.lists-elements li:after{
+    content: "•";
+    margin-left: 8px;
+}
+
+.helpers{
+    width:1400px;
+    height:441px;
+    display:grid;
+    padding:0;
+    grid-template-columns: 1400px;
+    grid-template-rows: 20px 80px 487px;
+    align-content: right;
+    border-top: 1px solid #b7b8b8;
+    border-right: 1px solid #b7b8b8;
+}
+/*Companies logos*/
+.helpersl{
+    width:920px;
+    height:80px;
+    justify-self:end;
+    display:flex;
+    background-image:url(Images/helper-labels.png);
+    padding-top:5px;
+    padding-right:5px;
+    
+   
+    
+}
+.helpersl a{
+    cursor:default;
+}
+/*field of lists(Company,Legal,NeutronMail)*/
+.lists{
+    align-self:end;
+    justify-content:end;
+    font-weight:normal;
+    text-align:right;
+    width:1400px;
+    height:300px;
+}
+.tabl-row-grid{
+    display:grid;
+    grid-template-columns: 535px 340px 300px 200px; 
+    grid-template-rows: 200px 100px;
+}
+.lists-text{
+    font-size:14px;
+}
+.lists-elements{
+    font-weight:normal;
+    font-size:14px;
+    color:#535353;
+
+}
+.b-text{
+    font-weight:bold;
+    color:#535353;
+
+}
+/*decoration of Company list*/
+.company-list{
+    height:300px;
+    padding-right:15px;
+    text-align:right;
+    border-right: 1px solid #b7b8b8;
+}
+.company-list a{
+    text-decoration:none;
+    color:inherit;
+}
+/*decoration of Legal list*/
+.legal-list{
+    text-align:right;
+}
+.legal-list a{
+    text-decoration:none;
+    color:inherit;
+}
+/*decoration of NeutronMail list*/
+.nmail-list{
+    text-align:right;
+}
+.nmail-list a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/*decoration of social networks list*/
+.sn-list{
+    padding:0;
+    justify-content: start;  
+    text-align:left;    
+    display:flex;
+    font-size:12px;
+    font-weight:normal;
+    color:#535353;
+    
+}
+.sn-list li+li:before{
+    margin-left:12px;
+    margin-right:12px;
+    content:"/";
+}
+.sn-list  a{
+    text-decoration:none;
+    color:inherit;
+
+}
+/*style of headers for lists*/
+.lists_head{
+    color:#535353;
+    font-size:18px;
+    letter-spacing: 1px;
+    margin-top:0;
+    font-weight:bold;
+}
+/*decoration of mails(General,Media,Security)*/
+.mail-list{
+    color:#535353;
+    font-weight:normal;
+    text-decoration:none;
+    font-style:normal;
+    margin-left:196px;
+    padding-top:7px;
+    padding-left:20px;
+    border-left: 1px solid #b7b8b8;
+    height:130px;
+    text-align:left;
+}
+.mail-list li:first-child{
+    margin-top:-14px;
+}
+.mail-list li{
+    margin-top:3px;
+
+}
+.mail-list a{
+    text-decoration:none;
+}
+.mail-list li:last-child a{
+    display:inline-block;
+    height:18px;
+    border-bottom: 2px solid #dddddd;
+
+}
+/*decoration of text "© 2017 Neutron..."*/
+.allrights{
+    text-align:left;
+    font-size:12px;
+    font-weight:normal;
+    color:#535353;
+    margin-top:12px;
+}
+
+.allrights p{
+    margin:0;
+}
+/*positioning of social network lists and all rights text*/
+.sn-allrights{
+    margin-top:45px;
+    float:right;
+}
+/* helpers buttons-links*/
+.help-list{
+    display:flex;
+    padding:0;
+    margin-top:15px;
+    margin-bottom:0;
+}
+.venture{
+    margin-left:22px;
+    
+}
+.venture button{
+    width:75px;
+    height:52px;
+    background-color: transparent;
+    border:none;
+
+}
+
+.deltalis{
+    margin-top:5px;
+    margin-left:66px;
+}
+.deltalis button{
+    width:67px;
+    height:52px;
+    background-color: transparent;
+    border:none;
+
+}
+.fongit{
+    margin-top:7px;
+    margin-left:54px;
+
+}
+.fongit button{
+    width:102px;
+    height:47px;
+    background-color: transparent;
+    border:none;
+
+}
+.quovadis{
+    margin-top:10px;
+    margin-left:28px;
+}
+.quovadis button{
+    width:120px;
+    height:38px;
+    background-color: transparent;
+    border:none;
+
+}
+.cyberkov{
+    margin-top:7px;
+    margin-left:55px;
+}
+.cyberkov button{
+    width:45px;
+    height:43px;
+    background-color: transparent;
+    border:none;
+
+}
+.radware{
+    margin-top:15px;
+    margin-left:50px;
+    
+   
+}
+.radware button{
+    box-sizing:inherit;
+    width:123px;
+    height:30px;
+    background-color: transparent;
+    border:none;
+
+
+}
+.ipmax{
+    margin-top:5px;
+    margin-left:37px;
+}
+.ipmax button{
+    box-sizing:inherit;
+    width:49px;
+    height:47px;
+    background-color: transparent;
+    border:none;
+
+}
+.venture button:hover {
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.deltalis button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.fongit button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.quovadis button:hover {
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.cyberkov button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.radware button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+.ipmax button:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 10px 20px 4px #8ca6f2;
+    cursor:pointer;
+}
+/* gray background gradient*/
+.cover-gradient{
+    position:absolute;
+    margin-top:-620px;
+    width:1800px;
+    height:1490px;
+    z-index:-2; 
+    overflow:hidden; 
+}
+.gradient{
+    position:absolute;
+    z-index:-1;
+    margin-top:150px;
+    width:2000px;
+    height:1800px;
+    background: linear-gradient(60deg,#fdfdfd,#efefef);
+    transform: rotate(-8deg);
+    overflow: hidden;
+}
+
+.footer-container{
+    margin:auto;
+    width:1800px;
+}

@@ -1,0 +1,416 @@
+@font-face {
+    font-family: "Malaga OTCE";
+    src: url("fonts/Malaga.otf");
+  }
+  
+main{
+    margin:auto;
+    width:1800px;
+}
+.group3Container{
+    display: flex;
+    width: 1560px;
+    justify-content: end;
+}
+.group3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 90px; 
+    justify-content: space-between;   
+    align-items: start;
+    position: relative;
+}
+article.memberGroup3 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #555555;
+    margin: 0;
+}
+article.memberGroup3 h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #959595;
+    margin: 0;
+    margin-top: -10px;
+    white-space: nowrap;
+}
+article.memberGroup3 p{
+    color: #959595;
+    width: 350px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+article.memberGroup3 div{
+    margin-left: 60px;
+}
+#swiss{
+    background-image: url(Images/swiss-img.png);
+    background-repeat: no-repeat;
+    background-position-x: -13px;
+}
+#security{
+    background-image: url(Images/security-img.png);
+    background-repeat: no-repeat;
+    background-position-x: -1px;
+    background-position-y: 8px;
+}
+#key{
+    background-image: url(Images/key-img.png);
+    background-repeat: no-repeat;
+    background-position-x: -16px;
+}
+div.line1{
+    position: absolute;
+    top: -130px;
+    left: 325px;
+    width: 1px;
+    height: 210px;
+    border-left: 1px solid #959595;
+}
+div.line2{
+    position: absolute;
+    top: 9px;
+    left: 770px;
+    width: 1px;
+    height: 435px;
+    border-left: 1px solid #959595;
+}
+div.line3{
+    position: absolute;
+    top: 9px;
+    right: -240px;
+    height: 1px;
+    width: 190px;
+    border-top: 1px solid #959595;
+}
+div.PhysicalSecurity{
+    display: grid;
+    justify-content: end;
+    box-sizing: border-box;
+    width:1145px;
+    padding-right: 20px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #959595;
+    position: relative;
+}
+div.PhysicalSecurity h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #404040;
+    text-align: right;
+    margin: 0;
+    padding-top: 75px;
+}
+div.PhysicalSecurity p.inf1{
+    color: #959595;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-align: right;
+    line-height: 1;
+    width: 620px;
+    right: inherit;
+    margin: 0;
+}
+div.PhysicalSecurity button.LearnMore{
+    border-radius: 50px;
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    top: 240px;
+    right: -190px;
+    border-width: 1px;
+    border-color: #959595;
+    border-style: solid;
+    background: white;
+    font-family: inherit;
+}
+div.PhysicalSecurity button.LearnMore a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    left:0;
+    border-radius: 50px;
+}
+div.PhysicalSecurity button.LearnMore p.inf2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #676767;
+    position: relative;
+    top: -1px;
+}
+strong.StrongRedColor{
+    font-size: inherit;
+    font-weight: inherit;
+    color:red;
+}
+
+.testimonials{
+    padding-top: 75px;
+    box-sizing: border-box;
+    height: 845px;
+    background: url(Images/laptop-img.png);
+    background-position-x: 80%;
+    background-position-y: 180px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.testimonials .new-refs{
+    margin-left:1.7%;
+    margin-right: 2.2%;
+    padding: 0;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonials .new-refs a{
+    background-image: url(Images/newspapers-img.png);
+    background-repeat: no-repeat;
+}
+.testimonials .new-refs li{
+    display: inline-flex;
+    align-items: center;
+}
+.wall-street-link {
+    width: 125px;
+    height: 20px;
+}
+.wall-street-link a{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    background-position: -16px;
+}
+.guardian-link {
+    width: 110px;
+    height: 20px;
+}
+.guardian-link a{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    background-position: -350px;
+}
+.new-york-link {
+    width: 100px;
+    height: 20px;
+}
+.new-york-link a{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    background-position: -190px;
+}
+.forbes-link {
+    width: 85px;
+    height: 20px;
+}
+.forbes-link a{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    background-position: -525px;
+}
+.frankfurter-link {
+    width: 150px;
+    height: 30px;
+}
+.frankfurter-link a{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    background-position: -655px;
+}
+.fox-news-link {
+    width: 60px;
+    height: 40px;
+}
+.fox-news-link a{
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    background-position: -865px;
+}
+.wall-street-link:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.new-york-link:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.guardian-link:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.frankfurter-link:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.forbes-link:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.fox-news-link:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+
+.wrapperContainer{
+    display: flex;
+    width: 945px;
+    justify-content: end;
+}
+
+.wrapper {
+	height: 200px;
+	position: relative;
+	width: 580px;
+}
+.slider {
+	overflow: hidden;
+    height: inherit;
+	width: inherit;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.wrapper > input {
+	display: none;
+}
+.slides p{
+    width: 520px;
+    font-family: "Malaga OTCE", serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.slides p+p{
+    font-family: "Malaga OTCE", serif;
+    font-size: 16px;
+    margin:0;
+    color: #676767;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+    z-index: 0;
+    opacity: 0;
+}
+
+.wrapper .controls {
+    z-index: 2;
+	left:0;
+    top:70px;
+    display: flex;
+    flex-direction: column;
+    width: 13px;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+}
+.wrapper label {
+    background-color: #a9a9a9;
+	content: "";
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+    margin-bottom: 10px;
+	border-radius: 50%;
+}
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3){
+	background: black;
+    height: 12px;
+    width: 12px;
+}
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3 {
+	opacity: 1;
+	z-index: 1;
+}
+.inf3{
+    position: relative;
+}
+.inf3 h1{
+    text-align: right;
+    font-size: 36px;
+    color: #404040;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.inf3 p{
+    text-align: right;
+    font-size: 16px;
+    width: 450px;
+    color: #959595;
+    margin: 0;
+    font-weight: 600;
+    line-height: 22px;
+}
+.buttonscont{
+    display: grid;
+    justify-content: end;
+}
+.buttons-to-download-cont{
+    display: flex;
+    justify-content: end;
+}
+.buttons-to-download{
+    width: 375px;
+    margin:0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-to-download button{
+    padding: 0;
+    margin:0;
+    border:none;
+    border-radius: 5px;
+}
+.buttons-to-download a{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+.appstore {
+    width: 180px;
+    height: 55px;
+}
+.appstore a{
+    background: url(Images/appstore-img.png);
+}
+.playstore {
+    width: 180px;
+    height: 55px;
+}
+.playstore a{
+    background: url(Images/playmarket-img.png);
+}
+.playstore:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.appstore:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.LearnMore:hover{
+    box-shadow: 0 2px 5px 1px #a0b4ee, 0 0px 20px 4px #8ca6f2;
+}
+.line4{
+    width: 1400px;
+    height: 1px;
+    border-bottom: 1px solid #959595;
+    position: relative;
+    top: 190px;
+    left: 400px;
+    z-index: -1;
+}
+.inf3cont{
+    display: grid;
+    grid-template-columns: 1120px 1fr;
+}
